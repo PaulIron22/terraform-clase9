@@ -11,3 +11,10 @@ variable "prefix" {
   # Cambiar 'tuapellido' por tu apellido real
   default = "Fierro"
 }
+
+# Variable nueva
+variable "environment" {
+  type          = string
+  description   = "Nombre del entorno: dev, staging o prod"
+  default       = "dev"
+}
